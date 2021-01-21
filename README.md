@@ -38,7 +38,9 @@ Note that making arcs by dimensions is on the agenda of upcoming features. Curre
 Also, note all arcs are circular in this version.  
 
 ## Screenshots of Application(Version 1)
+### Simple Orthographic without Construction Lines
 ![Image of Simple Orthographic without Construction Lines](https://github.com/Saptak625/OrthoDesigner/blob/main/Application%20Screenshots/SimpleOrtho1WithoutConstruction.png)
+### Harder Orthographic with Construction Lines
 ![Image of Harder Orthographic with Construction Lines](https://github.com/Saptak625/OrthoDesigner/blob/main/Application%20Screenshots/HarderOrtho1WithConstruction.png)
 
 ## Upcoming Features
