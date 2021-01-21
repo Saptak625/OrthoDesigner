@@ -23,7 +23,7 @@ Program starts by asking the max x, y, and z dimensions and renders the views ac
 * Tranlate Left Or Right -> Left or Right Arrow Keys
 * Translate Up or Down -> Up or Down Arrow Keys
 
-## Hide and Show Features
+### Hide and Show Features
 * Hide midpoints -> "m"
 * Hide construction lines and points(Tidies up drawing) -> "o"
 Note in a later version, a shortcut may be designated to hide/show interections.
@@ -32,7 +32,7 @@ Note in a later version, a shortcut may be designated to hide/show interections.
 1. Select a starting point and then select another point. Line is created with corresponding start and end points.
 2. Select a starting point and right-click point. Then, the application prompts user to enter dimension. Using the angle between where the mouse was pressed and the starting point, application scales line along the same angle.
 
-## How to make a arc
+### How to make a arc
 1. Select center point. Next, select another point to provide radius of arc. This point also becomes the starting point of the arc. Then, Finally, select one more point as the end point of the arc. 
 Note that making arcs by dimensions is on the agenda of upcoming features. Currently, the same result can be acheived by dimensioning around the center point with construction lines.
 Also, note all arcs are circular in this version.  
