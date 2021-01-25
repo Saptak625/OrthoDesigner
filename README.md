@@ -1,10 +1,10 @@
 # OrthoDesigner
 An application that makes orthographic designs much easier and faster. More features are soon to come. 
 
-## Usage(Version 1)
+## Usage(Version 2)
 Program starts by asking the max x, y, and z dimensions and renders the views accordingly. Then, continue to add lines and arcs of different line types to finish model. As you put lines and arcs in one view, construction lines automatically transfer dimensions to other views. This allows user to focus more on drawing a view than worrying if they are missing lines. Once complete, a screenshot can be taken hiding some features and keeping others based on the user's preference. A better export method is on the agenda for upcoming features in the future.
 
-## Commands(Version 1)
+## Commands(Version 2)
 ### Drawing Tools
 * Line -> "l"
 * Arc -> "a"
@@ -26,7 +26,8 @@ Program starts by asking the max x, y, and z dimensions and renders the views ac
 ### Hide and Show Features
 * Hide midpoints -> "m"
 * Hide construction lines and points(Tidies up drawing) -> "o"
-Note in a later version, a shortcut may be designated to hide/show interections.
+* Hide intersections -> "i"
+Updated UI displays the current state of showing and hiding features.
 
 ### Ways to make a line
 1. Select a starting point and then select another point. Line is created with corresponding start and end points.
@@ -37,18 +38,17 @@ Note in a later version, a shortcut may be designated to hide/show interections.
 Note that making arcs by dimensions is on the agenda of upcoming features. Currently, the same result can be acheived by dimensioning around the center point with construction lines.
 Also, note all arcs are circular in this version.  
 
-## Screenshots of Application(Version 1)
+## Screenshots of Application(Version 2)
 ### Simple Orthographic without Construction Lines
 ![Image of Simple Orthographic without Construction Lines](https://github.com/Saptak625/OrthoDesigner/blob/main/Application%20Screenshots/SimpleOrtho1WithoutConstruction.png)
 ### Harder Orthographic with Construction Lines
 ![Image of Harder Orthographic with Construction Lines](https://github.com/Saptak625/OrthoDesigner/blob/main/Application%20Screenshots/HarderOrtho1WithConstruction.png)
 
 ## Upcoming Features
-1. Intersections between Lines and Arcs
-2. Create Arcs using Dimensions
-3. Style Lines(Dashed Patterns)
-4. Better Undo and Create Redo Feature
-5. Suggestions for Proper Line Type
-6. Save screenshot from application
-7. 3-D Isometric Renderer
-8. ???
+1. Create Arcs using Dimensions
+2. Style Lines(Dashed Patterns)
+3. Better Undo and Create Redo Feature
+4. Suggestions for Proper Line Type
+5. Save screenshot from application
+6. 3-D Isometric Renderer
+7. ???
